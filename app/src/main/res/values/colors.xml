@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+  <color name="primaryColor">#41b883</color>
+  <color name="primaryLightColor">#77ebb3</color>
+  <color name="primaryDarkColor">#008756</color>
+  <color name="secondaryColor">#34495e</color>
+  <color name="secondaryLightColor">#60748b</color>
+  <color name="secondaryDarkColor">#092234</color>
+  <color name="primaryTextColor">#000000</color>
+  <color name="secondaryTextColor">#ffffff</color>
+
+
+  <color name="colorPrimary">#111</color>
+  <color name="colorPrimaryDark">#FFF</color>
+  <color name="colorAccent">#36D3B2</color>
+  <color name="msg_no_notes">#999</color>
+  <color name="hint_enter_note">#89c3c3c3</color>
+  <color name="timestamp">#858585</color>
+  <color name="note_list_text">#232323</color>
+
+  <color name="twitter_blue">#920142FF</color>
+
+  <color name="red">#ff0000</color>
+</resources>

@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="compose_shortcut_short_dissabled">Dissabled Shortcut</string>
+    <string name="compose_shortcut_long_dissabled">This shortcut is disabled</string>
+    <string name="compose_shortcut_disabled_dissabled">Disabled can not receive user interactions</string>
+    <string name="accessibility_description">Maelezo Ya utafutaji</string>
+    <string name="error_404">Kosa Namba 404</string>
+    <string name="is_your_id_correct">Nambari ya utambuzi inayoonekana hapo juu ni sahihi?</string>
+    <string name="yes">Ndio</string>
+    <string name="no">Hapana</string>
+    <string name="your_id">Nambari Ya Kitambulisho Chako</string>
+    <string name="fnamelname">Majina yako matatu</string>
+    <string name="your_phone">Namba ya simu mf. 0716XXXXXX</string>
+    <string name="send">tuma</string>
+    <string name="phone_cannot_be_empty">Nambari ya simu hairuhusiwi kuwa tupu</string>
+    <string name="user_name_cannot_be_empty">Jina la mwanachama haliruhusiwi kubaki tupu</string>
+    <string name="do_you_have_an_id_already">Unayo namba ya kitambulisho tayari ?</string>
+    <string name="enter_your_own_keys">Ingingiza Namba yako ya utambulisho</string>
+    <string name="token_can_not_be_null">Hairuhusiwi kuwa wazi</string>
+    <string name="enter_your_credentials_here">Jaza Taarifa zako hapa</string>
+    <string name="get_your_national_identity_from_this_app">Hifadhi application hii ili uweze kupata Namba yako ya Kitambulisho cha taifa na Nakala yake kwa urahisi</string>
+    <string name="send_to">Tuma kupitia</string>
+    <string-array name="language_array">
+        <item>Badili Lugha</item>
+        <item>English</item>
+        <item>Kiswahili</item>
+    </string-array>
+
+    <string name="ok_button">Ndio</string>
+    <string name="cancel">Hapana</string>
+
+    <string name="cost_dialog_title">Gharama ?</string>
+    <string name="cost_dialog_message">Ili kutumia huduma hii utahitajika kuchangia kiasi cha shilingi 100 \n kutoka kwenye salio lako la muda wa maongezi. \n Upo tayari kuendelea ?</string>
+
+
+    <string name="help_dialog">
+        Programu hii imeundwa mahususi kwa ajili ya kurahisisha zoezi la upataji wa Namba ya Kitambulisho cha taifa
+        kwenye namba ya simu ya mtumiaji kisha kwenda kuiandika upya kwenye tovuti ya Mamlaka ya Vitambulisho vya taifa ili kupata nakala ya kitambulisho.
+        \n\n Unachotakiwa kufanya ni kujaza taarifa sahihi yaani Jina Lako, Jina la pili na Jina la tatu na programu itafanya kazi zilizobaki kwa niaba yako.
+        \n\n
+        <b><i>IELEWEKE</i></b>
+        Programu hii imetengenezwa na mtu binafsi kusaidia watanzania kutapa nambari na nakala za vitambulisho vyao vya Taifa. \n
+        Programu hii haimilikiwa na Mamlaka ya Vitambulisho vya Taifa (NIDA). Hivyo basi NIDA haitahusika na lawama zozote zinazohusiana na ugumu wa matumizi ya programu hii
+        bali zinaweza kuwasilishwa kupitia parua pepe iliyotolewa. Pia programu haikusanyi wala kuhifadhi taarifa zozote za mtumiaji bali taarifa za programu
+    yenyewe ili kuweza kuiboresha zaidi</string>
+
+    <string name="help_title">Kuhusu programu hii</string>
+    <string name="language">Lugha</string>
+    <string name="lan_en">Kiingereza</string>
+    <string name="lan_sw">Kiswahili</string>
+
+</resources>

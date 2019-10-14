@@ -1,0 +1,59 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.MaterialComponents.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/primaryDarkColor</item>
+        <item name="colorPrimaryDark">@color/primaryDarkColor</item>
+        <item name="colorAccent">@color/primaryTextColor</item>
+    </style>
+
+    <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="AppTheme.AppBarOverlay" parent="Theme.AppCompat.Light.NoActionBar" />
+    <style name="AppTheme.PopupOverlay" parent="Theme.AppCompat.Light.NoActionBar" />
+
+    <!--Create TextInput Error Style-->
+    <style name="ErrorText" parent="TextAppearance.AppCompat">
+        <item name="android:textColor">@color/red</item>
+        <item name="android:textSize">16sp</item>
+    </style>
+
+    <style name="SplashTheme" parent="@style/Theme.AppCompat.Light.NoActionBar">
+        <item name="android:windowBackground">@drawable/splash_background</item>
+        <item name="colorPrimary">@color/primaryLightColor</item>
+        <item name="colorPrimaryDark">@color/primaryLightColor</item>
+        <item name="colorAccent">@color/primaryLightColor</item>
+    </style>
+    
+    <!--Hover styling-->
+    <style name="HoverCustomDialogTheme">
+        <item name="colorPrimary">@color/primaryColor</item>
+        <item name="colorPrimaryDark">@color/primaryColor</item>
+        <item name="colorAccent">@color/secondaryDarkColor</item>
+    </style>
+
+    <!--Create TextHit Style-->
+    <style name="HintText" parent="TextAppearance.AppCompat">
+        <item name="android:textColor">@color/secondaryTextColor</item>
+        <item name="android:textSize">14sp</item>
+    </style>
+
+ <!--   <style name="TextInputLayoutAppearance" parent="Widget.Design.TextInputLayout">-->
+    <style name="TextInputLayoutAppearance">
+        <!-- reference our hint & error styles -->
+        <!--<item name="hintTextAppearance">@style/HintText</item>
+        <item name="errorTextAppearance">@style/ErrorText</item>-->
+        <item name="android:textColor">@color/colorPrimary</item>
+        <item name="android:textColorHint">@color/primaryLightColor</item>
+        <item name="colorControlNormal">@color/secondaryTextColor</item>
+        <item name="colorControlActivated">@color/primaryDarkColor</item>
+        <item name="colorControlHighlight">@color/primaryDarkColor</item>
+    </style>
+
+
+
+</resources>
