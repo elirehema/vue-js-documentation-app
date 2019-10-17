@@ -9,6 +9,10 @@ public class Constants {
 
     public static final String VUEJS_URL = "https://vuejs.org/";
 
+    public static final String NUXT_URL = "https://nuxtjs.org";
+
+    public static final String VUETIFY_URL = "https://vuetifyjs.com/en/";
+
     public static final String APPLICATION_SHARED_LINK = "https://play.google.com/store/apps/details?id=";
 
 
