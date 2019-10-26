@@ -94,14 +94,27 @@ public class MainActivity extends BaseActivity {
         Intent vueTifyIntent = vueTifyCustomTab.intent;
         vueTifyIntent.setData(Uri.parse(Constants.VUETIFY_URL));
 
+        /**
+         * Composition Api Intent
+         * **/
+        CustomTabsIntent compositionCustomTab = new CustomTabsIntent.Builder()
+                .setToolbarColor(getResources().getColor(R.color.secondaryDarkColor))
+                .addDefaultShareMenuItem()
+                .setShowTitle(true).build();
+        Intent compositionIntent = compositionCustomTab.intent;
+        compositionIntent.setData(Uri.parse(Constants.COMPOSITION_API_URL));
 
         PendingIntent pendingIntent1 = PendingIntent.getActivity(this,requestCode,intent, PendingIntent.FLAG_CANCEL_CURRENT);
-        PendingIntent VUETIFY_INTENT = PendingIntent.getActivity(this,requestCode,vueTifyIntent,PendingIntent.FLAG_UPDATE_CURRENT);
+        PendingIntent VUETIFY_INTENT = PendingIntent.getActivity(this,requestCode,vueTifyIntent,PendingIntent.FLAG_CANCEL_CURRENT);
+        PendingIntent COMPOSITION_API_INTENT = PendingIntent.getActivity(this, requestCode,compositionIntent, PendingIntent.FLAG_CANCEL_CURRENT);
+
         builder.setActionButton(icon, "Share ", pendingIntent);
         builder.addMenuItem("NuxitJs", pendingIntent1);
         builder.addMenuItem("VuetifyJs",VUETIFY_INTENT);
+        builder.addMenuItem("Composition API", COMPOSITION_API_INTENT);
         CustomTabsIntent customTabsIntent = builder.build();
         customTabsIntent.intent.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
+        customTabsIntent.intent.addFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
         customTabsIntent.launchUrl(this, Uri.parse(Constants.VUEJS_URL));
 
     }
