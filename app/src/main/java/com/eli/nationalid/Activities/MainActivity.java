@@ -57,7 +57,7 @@ public class MainActivity extends BaseActivity {
         super.onRestart();
     }
 
-    private void openCustomTab() {
+    public void openCustomTab() {
 
 
 

@@ -36,6 +36,10 @@
             android:name=".Activities.ShareBroadcastReceiver"
             android:enabled="true">
         </receiver>
+        <receiver
+            android:name=".Activities.CustomTabReceiver"
+            android:enabled="true" />
+
         <meta-data
             android:name="com.hover.ApiKey"
             android:value="4553982057e6c89649dede3eaefde898" />
