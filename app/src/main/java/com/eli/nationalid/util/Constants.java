@@ -21,6 +21,8 @@ public class Constants {
 
     public static final String BOOTSTRAP_VUE = "https://bootstrap-vue.js.org/docs";
 
+    public static final String VUE_MULT_SELECT_URL = "https://vue-multiselect.js.org/#sub-getting-started";
+
 
     public static final String CRUSH_ANALYTICS_USER_IDENTIER = "vue_app_76GVDJS-J3-OKT-14 14:27:17";
 }
