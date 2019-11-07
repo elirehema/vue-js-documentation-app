@@ -126,17 +126,30 @@ public class SplashActivity extends AppCompatActivity {
         Intent bootStrapVueIntent = bootStrapVueCustomTab.intent;
         bootStrapVueIntent.setData(Uri.parse(Constants.BOOTSTRAP_VUE));
 
+        /**
+         * Vue-multiselect Intent
+         * **/
+        CustomTabsIntent multiselectCustomTab = new CustomTabsIntent.Builder()
+                .setToolbarColor(getResources().getColor(R.color.secondaryDarkColor))
+                .addDefaultShareMenuItem()
+                .setShowTitle(true).build();
+        Intent multiselectIntent = multiselectCustomTab.intent;
+        multiselectIntent.setData(Uri.parse(Constants.VUE_MULT_SELECT_URL));
+
+
         PendingIntent pendingIntent1 = PendingIntent.getActivity(this, requestCode, intent, PendingIntent.FLAG_CANCEL_CURRENT);
         PendingIntent VUETIFY_INTENT = PendingIntent.getActivity(this, requestCode, vueTifyIntent, PendingIntent.FLAG_CANCEL_CURRENT);
         PendingIntent COMPOSITION_API_INTENT = PendingIntent.getActivity(this, requestCode, compositionIntent, PendingIntent.FLAG_CANCEL_CURRENT);
         PendingIntent VUENATIVE_INTENT = PendingIntent.getActivity(this, requestCode, vueNativeIntent, PendingIntent.FLAG_CANCEL_CURRENT);
         PendingIntent BOOTSTRAP_VUE_INTENT = PendingIntent.getActivity(this, requestCode, bootStrapVueIntent, PendingIntent.FLAG_CANCEL_CURRENT);
+        PendingIntent MULTI_SELECTION_API_INTENT = PendingIntent.getActivity(this, requestCode,multiselectIntent, PendingIntent.FLAG_CANCEL_CURRENT);
 
         builder.setActionButton(icon, "Share ", pendingIntent);
         builder.addMenuItem("NuxitJs", pendingIntent1);
         builder.addMenuItem("Vue-Native", VUENATIVE_INTENT);
         builder.addMenuItem("VuetifyJs", VUETIFY_INTENT);
         builder.addMenuItem("Composition API", COMPOSITION_API_INTENT);
+        builder.addMenuItem("Vue-multiselect",MULTI_SELECTION_API_INTENT);
         builder.addMenuItem("Bootstrap Vue", BOOTSTRAP_VUE_INTENT);
         CustomTabsIntent customTabsIntent = builder.build();
         customTabsIntent.intent.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
