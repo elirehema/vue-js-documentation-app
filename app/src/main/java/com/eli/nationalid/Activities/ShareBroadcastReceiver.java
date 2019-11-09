@@ -26,7 +26,8 @@ public class ShareBroadcastReceiver extends BroadcastReceiver {
                 "\n- Bootstrap Vue Documentation,\n" +
                 "\n- Vue Native Documentation,\n" +
                 "\n- Vue-multiselect Documentation,\n In this app:- \n\n";
-        shareMessage = shareMessage + "https://play.google.com/store/apps/details?id=" + BuildConfig.APPLICATION_ID +"\n\n";
+        shareMessage = shareMessage + "https://play.google.com/store/apps/details?id=" + BuildConfig.APPLICATION_ID +"\n\n" +
+                "\n @vuejsdevelopers, @vuejs @vuetifyjs";
         shareIntent.putExtra(Intent.EXTRA_TEXT, shareMessage);
         Intent chooserIntent = Intent.createChooser(shareIntent, context.getString(R.string.app_name));
         chooserIntent.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
