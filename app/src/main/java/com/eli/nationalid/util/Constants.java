@@ -23,6 +23,15 @@ public class Constants {
 
     public static final String VUE_MULT_SELECT_URL = "https://vue-multiselect.js.org/#sub-getting-started";
 
+    public static final String NUXT_PWA_URL = "https://pwa.nuxtjs.org/";
+
+    public static final String VUE_ROUTER_URL = "https://router.vuejs.org/";
+
+    public static final String VUEX_URL = "https://vuex.vuejs.org/";
+
+    public static final String THIS_APP_REPO ="https://github.com/elirehema/vue-js-documentation-app";
+
+    public static final String VUEJS_REPO = "https://github.com/vuejs";
 
     public static final String CRUSH_ANALYTICS_USER_IDENTIER = "vue_app_76GVDJS-J3-OKT-14 14:27:17";
 }

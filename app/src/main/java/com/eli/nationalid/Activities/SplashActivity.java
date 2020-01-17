@@ -36,7 +36,7 @@ public class SplashActivity extends AppCompatActivity {
                 startActivity(i);*/
 
                 finish();
-                openCustomTab();
+                startActivity(new Intent(SplashActivity.this, MainActivity.class));
             }
         }, 1500);
 

@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/secondaryDarkColor">
+
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/dimen_10">
+
+
+        <TextView
+            android:padding="@dimen/text_padding"
+            android:textColor="@android:color/white"
+            android:background="@color/primaryColor"
+            android:id="@+id/button_vue_js"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="VueJs Documentation"
+
+            android:textAllCaps="false"/>
+        <TextView
+            android:padding="@dimen/text_padding"
+            android:textColor="@android:color/white"
+            android:background="@color/primaryColor"
+            android:layout_marginTop="2dp"
+            android:id="@+id/button_vue_native"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Vue-Native Documentation"
+            android:textAllCaps="false"/>
+        <TextView
+            android:padding="@dimen/text_padding"
+            android:textColor="@android:color/white"
+            android:background="@color/primaryColor"
+            android:layout_marginTop="2dp"
+            android:id="@+id/button_vue_router"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Vue-Router Documentation"
+            android:textAllCaps="false"/>
+        <TextView
+            android:padding="@dimen/text_padding"
+            android:textColor="@android:color/white"
+            android:background="@color/primaryColor"
+            android:layout_marginTop="2dp"
+            android:id="@+id/button_vuex_doc"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Vuex Documentation"
+            android:textAllCaps="false"/>
+        <TextView
+            android:padding="@dimen/text_padding"
+            android:textColor="@android:color/white"
+            android:background="@color/primaryColor"
+            android:layout_marginTop="2dp"
+            android:id="@+id/button_composition_apis"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Composition Api's Documentation"
+            android:textAllCaps="false"/>
+        <TextView
+            android:padding="@dimen/text_padding"
+            android:textColor="@android:color/white"
+            android:background="@color/primaryColor"
+            android:layout_marginTop="2dp"
+            android:id="@+id/button_vue_multiselect"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Vue-multiselect Documentation"
+            android:textAllCaps="false"/>
+
+        <TextView
+            android:padding="@dimen/text_padding"
+            android:textColor="@android:color/white"
+            android:background="@color/primaryColor"
+            android:layout_marginTop="2dp"
+            android:id="@+id/button_nuxt_js"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="NuxtJs Documentation"
+            android:textAllCaps="false"/>
+        <TextView
+            android:padding="@dimen/text_padding"
+            android:textColor="@android:color/white"
+            android:background="@color/primaryColor"
+            android:layout_marginTop="2dp"
+            android:id="@+id/button_nuxt_pwa"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Nuxt PWA Documentation"
+            android:textAllCaps="false"/>
+
+        <TextView
+            android:padding="@dimen/text_padding"
+            android:textColor="@android:color/white"
+            android:background="@color/primaryColor"
+            android:layout_marginTop="2dp"
+            android:id="@+id/button_vuetify_js"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Vuetify Documentation"
+            android:textAllCaps="false"/>
+
+        <TextView
+            android:padding="@dimen/text_padding"
+            android:background="@color/primaryColor"
+            android:layout_marginTop="2dp"
+            android:id="@+id/button_bootstrap_vue"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="BootStrap-vue Documentation"
+            android:textColor="@android:color/white"
+            android:textAllCaps="false"/>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:layout_marginTop="4dp"
+            android:background="@android:color/white">
+
+        </View>
+
+        <TextView
+            android:padding="@dimen/text_padding"
+            android:background="@color/primaryColor"
+            android:layout_marginTop="4dp"
+            android:id="@+id/button_vue_repo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="VueJS Github Repo"
+            android:textAllCaps="false"/>
+
+        <TextView
+            android:padding="@dimen/text_padding"
+            android:background="@color/primaryColor"
+            android:layout_marginTop="2dp"
+            android:id="@+id/button_this_app_repo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="This App Github Repo"
+            android:textAllCaps="false"/>
+
+
+
+
+
+    </LinearLayout>
+</ScrollView>
