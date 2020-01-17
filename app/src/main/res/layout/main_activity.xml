@@ -119,16 +119,17 @@
             android:textAllCaps="false"/>
         <View
             android:layout_width="match_parent"
-            android:layout_height="2dp"
+            android:layout_height="1dp"
             android:layout_marginTop="4dp"
             android:background="@android:color/white">
 
         </View>
 
         <TextView
-            android:padding="@dimen/text_padding"
+            android:padding="16dp"
             android:background="@color/primaryColor"
             android:layout_marginTop="4dp"
+            android:textColor="@color/secondaryDarkColor"
             android:id="@+id/button_vue_repo"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -136,9 +137,10 @@
             android:textAllCaps="false"/>
 
         <TextView
-            android:padding="@dimen/text_padding"
+            android:padding="16dp"
             android:background="@color/primaryColor"
             android:layout_marginTop="2dp"
+            android:textColor="@color/secondaryDarkColor"
             android:id="@+id/button_this_app_repo"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
