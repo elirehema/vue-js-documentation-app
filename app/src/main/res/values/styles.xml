@@ -1,7 +1,7 @@
 <resources>
 
     <!-- Base application theme. -->
-    <style name="AppTheme" parent="Theme.MaterialComponents.Light.DarkActionBar">
+    <style name="AppTheme" parent="Theme.MaterialComponents.Light.NoActionBar">
         <!-- Customize your theme here. -->
         <item name="colorPrimary">@color/secondaryDarkColor</item>
         <item name="colorPrimaryDark">@color/secondaryDarkColor</item>
@@ -54,6 +54,13 @@
         <item name="colorControlHighlight">@color/primaryDarkColor</item>
     </style>
 
+    <style name="navigation">
+        <item name="android:textColor">@color/colorPrimaryDark</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:itemBackground">@drawable/editext</item>
+        <item name="android:background">@color/primaryColor</item>
+        <item name="android:textAppearance">@color/colorPrimary</item>
+    </style>
 
 
 </resources>

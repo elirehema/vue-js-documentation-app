@@ -17,4 +17,7 @@
     <dimen name="sp5">5sp</dimen>
     <dimen name="button_size">150dp</dimen>
     <dimen name="text_padding">20dp</dimen>
+    <dimen name="sp_5">5sp</dimen>
+    <dimen name="action_padding">5dp</dimen>
+    <dimen name="image_size">80dp</dimen>
 </resources>
