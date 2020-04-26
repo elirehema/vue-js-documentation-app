@@ -61,7 +61,7 @@
         android:soundEffectsEnabled="true"
         android:checkable="true"
         app:itemTextColor="@color/secondaryTextColor"
-        app:itemIconTint="@color/secondaryDarkColor"
+        app:itemIconTint="@color/secondaryColor"
         app:itemTextAppearance="@style/TextAppearance.AppCompat.Light.Widget.PopupMenu.Small"
         android:background="@color/primaryColor"
         style="@style/navigation"
