@@ -63,6 +63,22 @@
     <string name="ok_button">OK</string>
     <string name="notification_error_ssl_cert_invalid">Invalid SSL certificate</string>
     <string name="share_via_twitter">Share tweeter</string>
+    <string name="general">General</string>
+    <string name="home">Home</string>
+    <string name="social_media">Social Media</string>
+    <string name="twitter">Twitter</string>
+    <string name="facebook">Facebook</string>
+    <string name="linkedin">Linkedin</string>
+    <string name="youtube">YouTube</string>
+    <string name="news_events">News</string>
+    <string name="about">About</string>
+    <string name="visit_our">Visitors</string>
+    <string name="about_us">This application contain \n only links to Official Vuejs leaning  materials and communities.
+     Built for simplification of materials link\'s memorization.
+        There is no modification in learning materials or tutorials written or to be written by developer.
+    \n\n In case you found the missing documentation feel free to contact us so as we can add it for others to read.
+    Repository also is open for any pull request which seems appropriate</string>
+    <string name="about_this_app">About this App</string>
 
 
     <string-array name="language_array">

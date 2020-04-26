@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:title="@string/general">
+        <menu>
+            <group android:checkableBehavior="single">
+                <item
+                    android:id="@+id/nav_home"
+                    android:title="@string/home"
+                    android:icon="@drawable/home_outline"
+                    />
+            </group>
+        </menu>
+    </item>
+
+    <item android:title="@string/social_media">
+        <menu>
+            <item
+                android:id="@+id/nav_twitter"
+                android:title="@string/twitter"
+                android:icon="@drawable/twitter"/>
+            <item
+                android:id="@+id/nav_facebook"
+                android:title="@string/facebook"
+                android:icon="@drawable/facebook"/>
+            <item
+                android:id="@+id/nav_youtube"
+                android:title="@string/youtube"
+                android:icon="@drawable/youtube"/>
+            <item
+                android:id="@+id/nav_linkedin"
+                android:title="@string/linkedin"
+                android:icon="@drawable/linkedin"/>
+        </menu>
+    </item>
+    <item android:title="Websites"
+        android:visible="false">
+        <menu>
+            <item
+                android:id="@+id/nav_our_site"
+                android:title="@string/visit_our"
+                android:icon="@drawable/microsoft_edge"/>
+            <item
+                android:id="@+id/nav_general_info"
+                android:title="Help"
+                android:visible="true"
+                android:icon="@drawable/ic_message"
+                />
+            <item
+                android:id="@+id/nav_news"
+                android:title="@string/news_events"
+                android:visible="false"
+                android:icon="@drawable/newspaper"/>
+        </menu>
+    </item>
+
+    <item android:title="@string/about">
+        <menu>
+            <item
+                android:id="@+id/nav_about_us"
+                android:title="About this app"
+
+                android:icon="@drawable/information"/>
+            <item
+                android:id="@+id/nav_contact_us"
+                android:title="Contact Us"
+                android:visible="false"
+                android:icon="@drawable/phone"/>
+            <item
+                android:id="@+id/nav_copyright"
+                android:title="Copyright"
+                android:visible="false"
+                android:icon="@drawable/copyright"/>
+        </menu>
+    </item>
+
+</menu>

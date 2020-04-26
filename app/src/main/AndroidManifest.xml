@@ -9,41 +9,27 @@
     <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
 
     <application
-        android:name=".App"
+        android:name=".ApplicationContext"
         android:allowBackup="true"
+        android:configChanges="locale"
         android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
-        android:configChanges="locale"
         android:theme="@style/AppTheme"
         tools:ignore="GoogleAppIndexingWarning">
-
-
-        <activity android:name=".Activities.MainActivity" >
-
-        </activity>
-        <activity android:name=".Activities.SplashActivity"
+        <activity android:name=".Activities.AboutUsActivity"
+            android:parentActivityName=".Activities.MainActivity"></activity>
+        <activity android:name=".Activities.MainActivity"></activity>
+        <activity
+            android:name=".Activities.SplashActivity"
             android:theme="@style/SplashTheme">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
-
         </activity>
-        <receiver
-            android:name=".Activities.ShareBroadcastReceiver"
-            android:enabled="true">
-        </receiver>
-        <receiver
-            android:name=".Activities.CustomTabReceiver"
-            android:enabled="true" />
-
-        <meta-data
-            android:name="com.hover.ApiKey"
-            android:value="4553982057e6c89649dede3eaefde898" />
-
 
         <meta-data
             android:name="io.fabric.ApiKey"
