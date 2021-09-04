@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" group="vuejs-doc/app" />
-      <module fileurl="file://$PROJECT_DIR$/vuejs-doc.iml" filepath="$PROJECT_DIR$/vuejs-doc.iml" group="vuejs-doc" />
+      <module fileurl="file://$PROJECT_DIR$/vuejs-doc.iml" filepath="$PROJECT_DIR$/vuejs-doc.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/vuejs-doc.app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/vuejs-doc.app.iml" />
     </modules>
   </component>
 </project>
