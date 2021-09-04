@@ -3,7 +3,7 @@
     "id": 1,
     "link": "link",
     "title": "VueJs",
-    "subtitle": "Vuejs documentation link",
-    "icon": "icon",
-  }
+    "subtitle":  "Vuejs documentation link",
+    "icon":  "icon",
+  },
 ]
