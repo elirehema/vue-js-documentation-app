@@ -3,7 +3,7 @@ package com.eli.nationalid.util;
 public class Constants {
     public static final String SERVICE_NUMBER = "15201" ;
     public static final String SERVICE_CONDITION = null;
-    public static final String LOCAL_BASE_URL =  "https://zedoo.000webhostapp.com/app/";
+    public static final String LOCAL_BASE_URL =  "https://raw.githubusercontent.com/elirehema/vue-js-documentation-app/master/data/";
 
 
     public static final String APPLICATION_SHARED_LINK = "https://play.google.com/store/apps/details?id=";
