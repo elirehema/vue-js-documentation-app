@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">VueJs Resource Links</string>
+    <string name="app_name">VueJs Resources</string>
     <string name="login_success">Login Success</string>
     <string name="login_failed">Login Failed !!</string>
 
