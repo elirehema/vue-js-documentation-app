@@ -51,7 +51,7 @@ class RecyclerAdapter(
         }
 
         GlideApp.with(context)
-                .load(data?.dIcon)
+                .load(Uri.parse(data?.dIcon))
                 .apply(RequestOptions().circleCrop())
                 .diskCacheStrategy(DiskCacheStrategy.ALL)
                 .error(R.drawable.vue_logo)
