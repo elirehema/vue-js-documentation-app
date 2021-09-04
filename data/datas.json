@@ -1,9 +1,9 @@
 [
   {
     "id": 1,
-    link: "vue link",
-    title: "VueJs",
-    subtitle:  "Vuejs documentation link",
-    icon:  "icon",
+    "link": "vue link",
+    "title": "VueJs",
+    "subtitle":  "Vuejs documentation link",
+    "icon":  "icon",
   },
 ]
