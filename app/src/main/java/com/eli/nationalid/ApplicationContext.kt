@@ -13,7 +13,6 @@ import com.eli.nationalid.SharedPrefer.SharedPreferencesManager
 import com.eli.nationalid.util.Constants
 import com.eli.nationalid.util.LocaleManager
 import com.facebook.stetho.Stetho
-import io.fabric.sdk.android.Fabric
 
 class ApplicationContext : MultiDexApplication(){
     private var sharedPreferencesManager: SharedPreferencesManager? = null
@@ -30,7 +29,6 @@ class ApplicationContext : MultiDexApplication(){
     override fun onCreate() {
         super.onCreate()
         instance = this
-        configureCrashReporting()
         Stetho.initializeWithDefaults(this);
         sharedPreferencesManager = SharedPreferencesManager(this)
     }
@@ -39,13 +37,6 @@ class ApplicationContext : MultiDexApplication(){
         super.onTerminate()
     }
 
-    private fun configureCrashReporting() {
-        val crashlyticsCore = CrashlyticsCore.Builder()
-                .disabled(BuildConfig.DEBUG)
-                .build()
-        Fabric.with(this, Crashlytics.Builder().core(crashlyticsCore).build(), Crashlytics())
-        Crashlytics.setUserIdentifier(Constants.CRUSH_ANALYTICS_USER_IDENTIER)
-    }
 
 
     companion object {
