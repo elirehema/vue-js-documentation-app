@@ -1,6 +1,6 @@
 [
   {
-    id: 1,
+    "id": 1,
     link: "vue link",
     title: "VueJs",
     subtitle:  "Vuejs documentation link",
