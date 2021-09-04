@@ -1,16 +1,10 @@
 package com.eli.nationalid
 
-import android.app.Application
 import android.content.Context
 import android.content.res.Configuration
 import androidx.multidex.MultiDex
 import androidx.multidex.MultiDexApplication
-
-import com.crashlytics.android.BuildConfig
-import com.crashlytics.android.Crashlytics
-import com.crashlytics.android.core.CrashlyticsCore
 import com.eli.nationalid.SharedPrefer.SharedPreferencesManager
-import com.eli.nationalid.util.Constants
 import com.eli.nationalid.util.LocaleManager
 import com.facebook.stetho.Stetho
 
